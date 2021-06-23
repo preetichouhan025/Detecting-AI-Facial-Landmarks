@@ -2,9 +2,11 @@
 
 ### Detecting AI Facial Landmarks using Tensorflow.js
 
-Open http://itspreeti25.github.io/Detecting-AI-Facial-Landmarks to view it in the browser. 
+Open http://itspreeti25.github.io/Detecting-AI-Facial-Landmarks to view it in the browser. (Please give it 10 seconds to render)
 
-This is a small JavaScript React.JS based application to detech Facial Landmarks in real-time using Tensorflow.js pre-trained model. Tensorflow.js's Face Landmark Detection predict 486 3D facial landmarks to baiscally infer the geometrical surface of human face i.e. detecting the coordinates representing eyes, nose, cheeks, mouth etc. and drawing a mesh separating them all.  
+This is a small JavaScript React.JS based application to detect Facial Landmarks in real-time using Tensorflow.js pre-trained model. Tensorflow.js's Face Landmark Detection predict 486 3D facial landmarks to baiscally infer the geometrical surface of human face i.e. detecting the coordinates representing eyes, nose, cheeks, mouth etc. and drawing a mesh identifying them all.  
+
+You move your face, the mesh moves along. Face not in the frame, then no mesh. 
 
 - More Information is available here: https://github.com/tensorflow/tfjs-models/tree/master/face-landmarks-detection
 
